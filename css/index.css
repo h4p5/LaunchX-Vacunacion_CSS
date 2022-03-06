@@ -1,0 +1,79 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+body a {
+  text-decoration: none;
+}
+
+.back-pattern {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: #ffffff;
+  opacity: 0.1;
+  background: repeating-linear-gradient(-45deg, #cccccc, #cccccc 20px, #ffffff 20px, #ffffff 100px);
+  z-index: -1;
+}
+
+/************************NAVBAR************************/
+.navbar-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5rem;
+  padding-inline: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #2747c5;
+  font-weight: bold;
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 4rem;
+}
+.menu a {
+  color: grey;
+  font-size: 1.1rem;
+}
+.menu button {
+  background: #2747c5;
+  color: white;
+  border-color: #2747c5;
+  border-style: none;
+  height: 2.5rem;
+  font-weight: 500;
+  border-radius: 7%;
+  padding-inline: 1rem;
+}
+
+/************************HERO************************/
+.container1 {
+  height: 100%;
+  display: flex;
+}
+
+.c1-text {
+  width: 30%;
+}
+
+.c1-img {
+  width: 70%;
+  background: white;
+}
+.c1-img img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=index.css.map */
