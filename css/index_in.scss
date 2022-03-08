@@ -1,4 +1,5 @@
 $theblue: #2747c5;
+$bluetitle: #1f3e72;
 
 body{
     font-family: 'Lato', sans-serif;
@@ -8,12 +9,11 @@ body{
     }
 }
 
+/************************PATTERN************************/
 .back-pattern{
     height: 100%;
     width: 100%;
     position: fixed;
-    //top: 0;
-    //left: 0;
     background-color: #ffffff;
     opacity: 0.1;
     background: repeating-linear-gradient( -45deg, #cccccc, #cccccc 20px, #ffffff 20px, #ffffff 100px );
@@ -56,7 +56,7 @@ body{
         border-style: none;
         height: 2.5rem;
         font-weight: 500;
-        border-radius: 7%;
+        border-radius: 7px;
         padding-inline: 1rem;
     }
 }
@@ -65,9 +65,21 @@ body{
 .container1{
     height: 100%;
     display: flex;
+    align-items: center;
 }
 .c1-text{
     width: 30%;
+    padding-left: 10%;
+    padding-right: 4%;
+    h1{
+        margin: 0;
+        font-size: 3.8rem;
+        color: $bluetitle;
+    }
+    p{
+        font-size: 1.2rem;
+        color: grey;
+    }
 }
 .c1-img{
     width: 70%;

@@ -6,6 +6,7 @@ body a {
   text-decoration: none;
 }
 
+/************************PATTERN************************/
 .back-pattern {
   height: 100%;
   width: 100%;
@@ -54,7 +55,7 @@ body a {
   border-style: none;
   height: 2.5rem;
   font-weight: 500;
-  border-radius: 7%;
+  border-radius: 7px;
   padding-inline: 1rem;
 }
 
@@ -62,10 +63,22 @@ body a {
 .container1 {
   height: 100%;
   display: flex;
+  align-items: center;
 }
 
 .c1-text {
   width: 30%;
+  padding-left: 10%;
+  padding-right: 4%;
+}
+.c1-text h1 {
+  margin: 0;
+  font-size: 3.8rem;
+  color: #1f3e72;
+}
+.c1-text p {
+  font-size: 1.2rem;
+  color: grey;
 }
 
 .c1-img {
