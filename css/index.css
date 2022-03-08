@@ -34,7 +34,7 @@ body a {
 .logo {
   color: #2747c5;
   font-weight: bold;
-  font-size: x-large;
+  font-size: 2.2rem;
   font-weight: 900;
 }
 
@@ -46,7 +46,7 @@ body a {
 }
 .menu a {
   color: grey;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 .menu button {
   background: #2747c5;
@@ -54,7 +54,8 @@ body a {
   border-color: #2747c5;
   border-style: none;
   height: 2.5rem;
-  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 700;
   border-radius: 7px;
   padding-inline: 1rem;
 }
@@ -63,10 +64,10 @@ body a {
 .container1 {
   height: 100%;
   display: flex;
-  align-items: center;
 }
 
 .c1-text {
+  margin-top: 12rem;
   width: 30%;
   padding-left: 10%;
   padding-right: 4%;
@@ -75,9 +76,10 @@ body a {
   margin: 0;
   font-size: 3.8rem;
   color: #1f3e72;
+  font-weight: 900;
 }
 .c1-text p {
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   color: grey;
 }
 
@@ -87,6 +89,84 @@ body a {
 }
 .c1-img img {
   width: 100%;
+}
+
+.container1-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #1f3e72;
+}
+
+/************************SCHEDULING DIV************************/
+.container2 {
+  position: absolute;
+  top: 40rem;
+  left: 10%;
+}
+.container2 h2 {
+  color: #1f3e72;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.container2-txt {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #1f3e72;
+}
+.container2-txt .icon {
+  font-size: 2rem;
+}
+
+.schedule {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 3rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sch-box {
+  display: flex;
+}
+.sch-box .sch-icon {
+  height: 100%;
+  margin-right: 10px;
+}
+.sch-box .sch-icon span {
+  font-size: 2rem;
+}
+.sch-box .sch-txt h2 {
+  color: grey;
+  margin: 0;
+  font-weight: 700;
+}
+.sch-box .sch-txt h3 {
+  color: #1f3e72;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.sch-btn button {
+  background-color: #2747c5;
+  color: white;
+  height: 4rem;
+  padding-inline: 2rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  border-style: none;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 /*# sourceMappingURL=index.css.map */

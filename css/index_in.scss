@@ -37,7 +37,7 @@ body{
 .logo{
     color: $theblue;
     font-weight: bold;
-    font-size: x-large;
+    font-size: 2.2rem;
     font-weight: 900;
 }
 .menu{
@@ -47,7 +47,7 @@ body{
     gap: 4rem;
     a{
         color: grey;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
     button{
         background: $theblue;
@@ -55,7 +55,8 @@ body{
         border-color: $theblue;
         border-style: none;
         height: 2.5rem;
-        font-weight: 500;
+        font-size: 1rem;
+        font-weight: 700;
         border-radius: 7px;
         padding-inline: 1rem;
     }
@@ -65,9 +66,11 @@ body{
 .container1{
     height: 100%;
     display: flex;
-    align-items: center;
+    //align-items: center;
 }
 .c1-text{
+    //position: absolute;
+    margin-top: 12rem;
     width: 30%;
     padding-left: 10%;
     padding-right: 4%;
@@ -75,9 +78,10 @@ body{
         margin: 0;
         font-size: 3.8rem;
         color: $bluetitle;
+        font-weight: 900;
     }
     p{
-        font-size: 1.2rem;
+        font-size: 1.7rem;
         color: grey;
     }
 }
@@ -86,5 +90,83 @@ body{
     background: white;
     img{
         width: 100%;
+    }
+}
+.container1-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: $bluetitle;
+}
+
+/************************SCHEDULING DIV************************/
+.container2{
+    position: absolute;
+    top: 40rem;
+    left: 10%;
+    h2{
+        color: $bluetitle;
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+}
+.container2-txt{
+    display: flex;
+    align-items: center;
+    //justify-content: space-between;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: $bluetitle;
+    .icon{
+        font-size: 2rem;
+    }
+}
+.schedule{
+    background-color: rgb(255, 255, 255, 0.9);
+    padding: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(0, 0, 0, 0.1);
+}
+.sch-box{
+    display: flex;
+    .sch-icon{
+        height: 100%;
+        margin-right: 10px;
+        span{
+            font-size: 2rem;
+        }
+    }
+    .sch-txt{
+        h2{
+            color: grey;
+            margin: 0;
+            font-weight: 700;
+        }
+        h3{
+            color: $bluetitle;
+            margin-top: 0.5rem;
+            margin-bottom: 0;
+            font-size: 1.5rem;
+            font-weight: 900;
+        }
+    }
+}
+.sch-btn{
+    button{
+        background-color: $theblue;
+        color: white;
+        height: 4rem;
+        padding-inline: 2rem;
+        border-radius: 10px;
+        font-size: 1.2rem;
+        border-style: none;
+        box-shadow: 5px 5px rgb(0, 0, 0, 0.1);
     }
 }
