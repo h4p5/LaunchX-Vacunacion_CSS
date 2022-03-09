@@ -168,3 +168,39 @@ body{
     border-style: none;
     box-shadow: 5px 5px rgb(0, 0, 0, 0.1);
 }
+
+/************************BRANDS************************/
+.container-brands{
+    padding-inline: 10%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+
+}
+.brand{
+    width: 30%;
+    img{
+        width: 100%;
+        opacity: 0.2;
+        filter: grayscale(100%);
+    }
+}
+
+/************************ADVANTAGES************************/
+.adv-intro{
+    margin-inline: 10%;
+    h2{
+        color: $bluetitle;
+        font-weight: 800;
+        font-size: 3rem;
+    }
+    p{
+        width: 40%;
+        font-size: 1.5rem;
+        color: grey;
+        font-weight: 700;
+    }
+}
