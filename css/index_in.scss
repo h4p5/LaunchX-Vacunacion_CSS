@@ -190,7 +190,7 @@ body{
 }
 
 /************************ADVANTAGES************************/
-.adv-intro{
+.advg-intro{
     margin-inline: 10%;
     h2{
         color: $bluetitle;
@@ -202,5 +202,38 @@ body{
         font-size: 1.5rem;
         color: grey;
         font-weight: 700;
+    }
+}
+.advg-content{
+    margin-inline: 10%;
+    margin-bottom: 8rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+.advg-box{
+    width: 25%;
+    border-radius: 20px;
+    border-color: rgb(128, 128, 128, 0.1);
+    border-style: solid;
+    background-color: white;
+    padding: 2rem;
+}
+.advg-icon{
+    span{
+        font-size: 4rem;
+        color: $theblue;
+        background-color: rgb(128, 128, 128, 0.1);
+        border-radius: 10px;
+    }
+}
+.advg-txt{
+    h2{
+        color: $bluetitle;
+        font-size: 2.1rem;
+    }
+    p{
+        color: grey;
+        font-size: 1.3rem;
     }
 }
