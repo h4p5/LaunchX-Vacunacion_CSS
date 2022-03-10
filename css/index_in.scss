@@ -33,6 +33,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 2;
 }
 .logo{
     color: $theblue;
@@ -235,5 +236,91 @@ body{
     p{
         color: grey;
         font-size: 1.3rem;
+    }
+}
+
+/************************PREPARATIONS************************/
+.prep-content{
+    display: flex;
+}
+.prep-img{
+    width: 50%;
+    padding-right: 5%;
+}
+.prep-txt{
+    margin-right: 10%;
+    h1{
+        font-size: 3.5rem;
+        color: $bluetitle;
+        font-weight: 900;
+    }
+    p{
+        color: grey;
+        font-size: 1.5rem;
+    }
+}
+.prep-box{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    border: 3px solid rgb(128, 128, 128, 0.1);
+    border-radius: 10px;
+    justify-content: space-between;
+    span{
+        font-size: 2rem;
+    }
+    margin-bottom: 2rem;
+}
+.prep-title{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.prep-box-txt{
+    color: $bluetitle;
+}
+.prep-icon{
+    padding: 0.5rem;
+    color: $theblue;
+    background-color: rgb(128, 128, 128, 0.2);
+    border-radius: 10px;
+}
+
+/************************EMERGENCIES************************/
+.emg-txt{
+    margin-left: 10%;
+    margin-top: 6rem;
+    h2{
+        color: $bluetitle;
+        font-size: 3rem;
+        font-weight: 900;
+    }
+    p{
+        width: 40%;
+        color: grey;
+        font-size: 1.5rem;
+    }
+}
+.emg-container{
+    display: flex;
+}
+.emg-box{
+    width: 50%;
+    margin-inline: 10%;
+}
+.emg-card{
+    width: 50%;
+    display: flex;
+}
+.emg-icon{
+    span{
+        font-size: 3rem;
+    }
+}
+.emg-img{
+    padding-left: 5%;
+    img{
+        width: 100%;
     }
 }

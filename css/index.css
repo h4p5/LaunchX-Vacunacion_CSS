@@ -29,6 +29,7 @@ body a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 2;
 }
 
 .logo {
@@ -236,6 +237,101 @@ body a {
 .advg-txt p {
   color: grey;
   font-size: 1.3rem;
+}
+
+/************************PREPARATIONS************************/
+.prep-content {
+  display: flex;
+}
+
+.prep-img {
+  width: 50%;
+  padding-right: 5%;
+}
+
+.prep-txt {
+  margin-right: 10%;
+}
+.prep-txt h1 {
+  font-size: 3.5rem;
+  color: #1f3e72;
+  font-weight: 900;
+}
+.prep-txt p {
+  color: grey;
+  font-size: 1.5rem;
+}
+
+.prep-box {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 1rem;
+  border: 3px solid rgba(128, 128, 128, 0.1);
+  border-radius: 10px;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.prep-box span {
+  font-size: 2rem;
+}
+
+.prep-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.prep-box-txt {
+  color: #1f3e72;
+}
+
+.prep-icon {
+  padding: 0.5rem;
+  color: #2747c5;
+  background-color: rgba(128, 128, 128, 0.2);
+  border-radius: 10px;
+}
+
+/************************EMERGENCIES************************/
+.emg-txt {
+  margin-left: 10%;
+  margin-top: 6rem;
+}
+.emg-txt h2 {
+  color: #1f3e72;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.emg-txt p {
+  width: 40%;
+  color: grey;
+  font-size: 1.5rem;
+}
+
+.emg-container {
+  display: flex;
+}
+
+.emg-box {
+  width: 50%;
+  margin-inline: 10%;
+}
+
+.emg-card {
+  width: 50%;
+  display: flex;
+}
+
+.emg-icon span {
+  font-size: 3rem;
+}
+
+.emg-img {
+  padding-left: 5%;
+}
+.emg-img img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=index.css.map */
