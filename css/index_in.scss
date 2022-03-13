@@ -25,7 +25,6 @@ body{
 /************************NAVBAR************************/
 .navbar-container{
     background-color: rgb(255, 255, 255, 0.9);
-    //background-color: red;
     position: fixed;
     top: 0;
     left: 0;
@@ -69,10 +68,8 @@ body{
 .container1{
     height: 100%;
     display: flex;
-    //align-items: center;
 }
 .c1-text{
-    //position: absolute;
     margin-top: 12rem;
     width: 30%;
     padding-left: 10%;
@@ -118,7 +115,6 @@ body{
 .container2-txt{
     display: flex;
     align-items: center;
-    //justify-content: space-between;
     gap: 1.5rem;
     font-size: 1.5rem;
     font-weight: 900;
